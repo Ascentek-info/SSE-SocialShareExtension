@@ -1,4 +1,4 @@
-# 一鍵分享文章（Chrome 擴充功能）
+# SSE-SocialShareExtension（一鍵分享文章 Chrome 擴充功能）
 
 在任何文章頁面點一下，加上你的評論，分享到 **Threads、Facebook、Instagram、X**。
 
@@ -31,7 +31,7 @@
 
 到本倉庫首頁，按綠色的 **Code** 按鈕，選 **Download ZIP**，下載後**解壓縮**到一個你不會刪除的位置（例如 `文件\share-extension`）。
 
-> 已安裝 Git 的話，也可以用 `git clone https://github.com/Ascentek-info/share-extension.git`。
+> 已安裝 Git 的話，也可以用 `git clone https://github.com/Ascentek-info/SSE-SocialShareExtension.git`。
 
 **2. 開啟擴充功能頁面**
 
@@ -47,7 +47,7 @@
 
 **5. 釘選到工具列**
 
-點網址列右邊的拼圖圖示，找到「一鍵分享文章」，按旁邊的圖釘，之後就能在工具列一鍵使用。
+點網址列右邊的拼圖圖示，找到「SSE-SocialShareExtension」，按旁邊的圖釘，之後就能在工具列一鍵使用。
 
 ### 使用
 
