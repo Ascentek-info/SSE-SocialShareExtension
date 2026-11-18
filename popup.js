@@ -62,7 +62,8 @@ $("go").addEventListener("click", async () => {
   if (needClip) await navigator.clipboard.writeText(full);
 
   await chrome.storage.local.set({ picked });
-  for (const p of picked) chrome.tabs.create({ url: builders[p](text, page.url) });
+  // 第一個分頁顯示在前景，其餘在背景載入，避免焦點被最後一個搶走
+  picked.forEach((p, i) => chrome.tabs.create({ url: builders[p](text, page.url), active: i === 0 }));
 
   $("hint").textContent = needClip
     ? "已複製評論與連結，到 Facebook / Instagram 貼上即可。"

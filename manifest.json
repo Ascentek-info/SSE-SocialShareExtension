@@ -4,8 +4,17 @@
   "version": "1.0.0",
   "description": "把當前文章加上評論，分享到 Threads、Facebook、Instagram、X",
   "permissions": ["activeTab", "scripting", "storage", "clipboardWrite"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "分享這篇文章"
+    "default_title": "分享這篇文章",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+    }
   }
 }

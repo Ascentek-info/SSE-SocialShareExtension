@@ -6,6 +6,7 @@ body { width: 360px; margin: 0; padding: 14px; font: 14px/1.5 system-ui, "Micros
 .lbl { font-size: 12px; opacity: .7; margin: 8px 0 4px; display: block; }
 textarea { width: 100%; box-sizing: border-box; padding: 8px; border-radius: 8px; border: 1px solid #8886; font: inherit; resize: vertical; background: transparent; color: inherit; }
 .row { display: flex; justify-content: space-between; align-items: center; font-size: 12px; margin-top: 4px; }
+.note { font-size: 12px; opacity: .65; margin-top: 2px; }
 .count { opacity: .7; }
 .count.over { color: #d33; font-weight: 600; }
 .platforms { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
