@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "一鍵分享文章",
+  "version": "1.0.0",
+  "description": "把當前文章加上評論，分享到 Threads、Facebook、Instagram、X",
+  "permissions": ["activeTab", "scripting", "storage", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "分享這篇文章"
+  }
+}

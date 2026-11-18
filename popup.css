@@ -1,0 +1,16 @@
+:root { color-scheme: light dark; }
+body { width: 360px; margin: 0; padding: 14px; font: 14px/1.5 system-ui, "Microsoft JhengHei", sans-serif; }
+.card { padding: 10px 12px; border: 1px solid #8884; border-radius: 8px; margin-bottom: 12px; }
+.title { font-weight: 600; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.url { font-size: 12px; opacity: .6; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 2px; }
+.lbl { font-size: 12px; opacity: .7; margin: 8px 0 4px; display: block; }
+textarea { width: 100%; box-sizing: border-box; padding: 8px; border-radius: 8px; border: 1px solid #8886; font: inherit; resize: vertical; background: transparent; color: inherit; }
+.row { display: flex; justify-content: space-between; align-items: center; font-size: 12px; margin-top: 4px; }
+.count { opacity: .7; }
+.count.over { color: #d33; font-weight: 600; }
+.platforms { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.platforms label { border: 1px solid #8886; border-radius: 8px; padding: 6px 10px; cursor: pointer; }
+.platforms label:has(input:checked) { border-color: #2563eb; background: #2563eb18; }
+button { width: 100%; margin-top: 12px; padding: 10px; border: 0; border-radius: 8px; background: #2563eb; color: #fff; font: inherit; font-weight: 600; cursor: pointer; }
+button:disabled { opacity: .5; cursor: default; }
+.hint { font-size: 12px; opacity: .75; margin-top: 8px; min-height: 1em; }

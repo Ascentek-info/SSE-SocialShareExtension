@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="card">
+    <div id="title" class="title">載入中…</div>
+    <div id="url" class="url"></div>
+  </div>
+
+  <label class="lbl" for="comment">你的評論</label>
+  <textarea id="comment" rows="5" placeholder="寫下你的看法…（可留空）"></textarea>
+  <div class="row">
+    <label><input type="checkbox" id="incTitle" checked> 附上標題</label>
+    <span id="count" class="count"></span>
+  </div>
+
+  <div class="lbl">分享到</div>
+  <div class="platforms">
+    <label><input type="checkbox" data-p="threads"> Threads</label>
+    <label><input type="checkbox" data-p="facebook"> Facebook</label>
+    <label><input type="checkbox" data-p="instagram"> Instagram</label>
+    <label><input type="checkbox" data-p="x"> X</label>
+  </div>
+
+  <button id="go">分享</button>
+  <div id="hint" class="hint"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
