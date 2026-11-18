@@ -29,7 +29,7 @@
 
 **1. 下載檔案**
 
-到本倉庫首頁，按綠色的 **Code** 按鈕，選 **Download ZIP**，下載後**解壓縮**到一個你不會刪除的位置（例如 `文件\share-extension`）。
+到本倉庫首頁，按綠色的 **Code** 按鈕，選 **Download ZIP**，下載後**解壓縮**到一個你不會刪除的位置（例如 `文件\SSE-SocialShareExtension`）。
 
 > 已安裝 Git 的話，也可以用 `git clone https://github.com/Ascentek-info/SSE-SocialShareExtension.git`。
 
