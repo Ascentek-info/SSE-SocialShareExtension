@@ -3,7 +3,12 @@
   "name": "SSE-SocialShareExtension",
   "version": "1.0.0",
   "description": "把當前文章加上評論，分享到 Threads、Facebook、Instagram、X",
+  "homepage_url": "https://github.com/Ascentek-info/SSE-SocialShareExtension",
+  "minimum_chrome_version": "111",
   "permissions": ["activeTab", "scripting", "storage", "clipboardWrite"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; base-uri 'none'; connect-src 'none'"
+  },
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
